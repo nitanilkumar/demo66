@@ -4,7 +4,7 @@
 
         Tip 2: you can also add an image using data-image tag
     -->
-            <div class="sidebar-wrapper">
+            <div class="sidebar-wrapper mainmenu">
                 <div class="logo">
                     <a href="http://www.creative-tim.com" class="simple-text">
                         ADMIN
@@ -17,13 +17,22 @@
                             <p>Dashboard</p>
                         </a>
                     </li>
+                    <li class="dropdown">
+                            <a class="nav-link" class="dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="nc-icon nc-chart-pie-35"></i><p>Components<b class="caret"></b></p></a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a href="#">Action</a></li>
+                            <li><a href="#">Another action</a></li>
+                            <li><a href="#">Something else here</a></li>
+                            
+                            </ul>
+                        </li>
                     <li>
                         <a class="nav-link active" href=" {{ route('users')  }}">
                             <i class="nc-icon nc-circle-09"></i>
                             <p>Front Office</p>
                         </a>
                         
-                    </li>
+                   </li>
 
                     <li>
                         <a class="nav-link" href="{{ route('tables')  }}">

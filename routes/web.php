@@ -25,5 +25,5 @@ Route::get('/icons', 'HomeController@icons')->name('icons');
 Route::get('/maps', 'HomeController@maps')->name('maps');
 Route::get('/notifications', 'HomeController@notifications')->name('notifications');
 
-Route::post('/Font_office_Submit_call_log', 'FontOfficeController@store')->name('Font_office_Submit_call_log');
+Route::get('/Font_office_Submit_call_log', 'FontOfficeController@store')->name('Font_office_Submit_call_log');
 
